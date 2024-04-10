@@ -83,7 +83,6 @@ if (isset($_POST['update_book'])) {
                   <textarea name="details" class="box" required placeholder="update book details" cols="30" rows="10"><?php echo $fetch_products['story']; ?></textarea>
                   <input type="file" accept="image/jpg, image/jpeg, image/png" class="box" name="image">
                   <input type="submit" value="update book" name="update_book" class="btn">
-                  <!-- <a href="book_add.php" class="option-btn">go back</a> -->
                   <a href="javascript:history.go(-1)" class="option-btn">Go Back</a>
                </form>
 

@@ -27,12 +27,8 @@ session_start();
         <section id="books"> 
 
             <div class="books-main-container">
-
                 <h1>LIBRARY</h1>
-
             </div>
-
-            <!-- </div> -->
 
         </section>
 

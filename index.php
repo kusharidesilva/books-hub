@@ -122,26 +122,17 @@ if (!isset($_SESSION['valid'])) {
     </section>
 
 
-    <!-- about -->
-    <section class="about-body" id="about-body">
-        <div class="about-body-container">
+<!-- about -->
 
-
-
-            <div class="about-body-text">
-                <div class="title">
+    <section class = "about-body" id = "about-body">
+            <div class = "about-body-container">
+                <div class = "title">
                     <h2>ABOUT BOOKS HUB</h2>
+                    <img src = "./img/about.png" alt = "about">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id totam voluptatem saepe eius ipsum nam provident sapiente, natus et vel eligendi laboriosam odit eos temporibus impedit veritatis ut, illo deserunt illum voluptate quis beatae quod. Necessitatibus provident dicta consectetur labore!</p>
                 </div>
-
-                <div class="about-img">
-                    <img src="./img/about.png" alt="about">
-                </div>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id totam voluptatem saepe eius ipsum nam provident sapiente, natus et vel eligendi laboriosam odit eos temporibus impedit veritatis ut, illo deserunt illum voluptate quis beatae quod. Necessitatibus provident dicta consectetur labore!</p>
             </div>
-
-        </div>
-    </section>
+        </section>
 
     <?php @include 'footer.php'; ?>
 
