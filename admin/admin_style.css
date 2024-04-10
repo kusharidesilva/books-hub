@@ -3,7 +3,6 @@
 :root {
   --pink: #e84393;
   --red: #c0392b;
-  --orange: #f39c12;
   --black: #333;
   --white: #fff;
   --light-color: #666;
@@ -111,7 +110,7 @@ section {
 }
 
 .option-btn {
-  background-color: var(--orange);
+  background-color: #02681e;
 }
 
 .disabled {
@@ -142,7 +141,7 @@ section {
 }
 
 .option-btn {
-  background-color: var(--orange);
+  background-color: #02681e;
 }
 
 .btn:hover,
@@ -231,7 +230,7 @@ section {
 }
 
 .header .flex .account-box div a {
-  color: var(--orange);
+  color: #02681e;
 }
 
 .header .flex .account-box div a:hover {

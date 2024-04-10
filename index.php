@@ -8,7 +8,7 @@ if (!isset($_SESSION['valid'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <meta charset="UTF-8">
@@ -94,7 +94,7 @@ if (!isset($_SESSION['valid'])) {
 
                     <a href="./books.php?type=horror" class="book-cover-item">
                         <div class="book-cover-img">
-                            <img src="./img/horror2.png" alt="horror">
+                            <img src="./img/horror1.png" alt="horror">
                         </div>
                         <div class="book-cover-title">
                             <p>HORROR</p>
@@ -129,7 +129,19 @@ if (!isset($_SESSION['valid'])) {
                 <div class = "title">
                     <h2>ABOUT BOOKS HUB</h2>
                     <img src = "./img/about.png" alt = "about">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id totam voluptatem saepe eius ipsum nam provident sapiente, natus et vel eligendi laboriosam odit eos temporibus impedit veritatis ut, illo deserunt illum voluptate quis beatae quod. Necessitatibus provident dicta consectetur labore!</p>
+                    <p>"Books Hub" is a great website for people who love books. It has many different kinds of books, 
+                        like short stories, adventure stories, fantasy stories, horror stories, and mystery stories. 
+                        You can easily find your favorite stories and start reading. The website is designed to make reading easy and enjoyable. 
+                    <br><br>
+                    With a user-friendly interface, accessing your favorite stories is as easy as logging in. 
+                    Once you're in, you can dive into the captivating world of literature and lose yourself in the 
+                    pages of our vast collection. Whether you prefer to read on a lazy Sunday afternoon or unwind with a 
+                    good book after a long day, "Books Hub" is your go-to place for literary escapades.
+                    <br><br>
+                    Our website is designed to provide a seamless reading experience, allowing you to immerse yourself in 
+                    the stories without any distractions. 
+                    <br><br>
+                    "Books Hub" is here to make your reading experience more enjoyable and fulfilling.</p>                
                 </div>
             </div>
         </section>

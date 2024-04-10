@@ -83,7 +83,7 @@ if (!isset($admin_id)) {
                     <div class="book-cover-content">
                         <a href="./book-add.php" class="book-cover-item">
                             <div class="book-cover-img">
-                                <img src="..//img/horror2.png" alt="mermaid">
+                                <img src="..//img/horror1.png" alt="horror">
                             </div>
                             <div class="book-cover-title">
                                 <p>HORROR</p>
@@ -96,7 +96,7 @@ if (!isset($admin_id)) {
                     <div class="book-cover-content">
                         <a href="./book-add.php" class="book-cover-item">
                             <div class="book-cover-img">
-                                <img src="..//img/mystery2.png" alt="mermaid">
+                                <img src="..//img/mystery2.png" alt="mystery">
                             </div>
                             <div class="book-cover-title">
                                 <p>MYSTERY</p>

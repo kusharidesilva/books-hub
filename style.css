@@ -201,7 +201,7 @@ main {
   color: #000000;
   margin-bottom: 2rem;
   padding: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   align-content: center;
 }
 
@@ -321,7 +321,7 @@ footer .wrapper {
 
 /* book-cover */
 .book-cover {
-  padding: 4.5rem 0;
+  padding: 0rem;
 }
 .title {
   text-align: center;
@@ -666,7 +666,7 @@ footer .wrapper {
 
 .book-card,
 .book-cover-content {
-  width: calc((80% - 1rem) / 2);
+  width: calc((55% - 1rem) / 2);
 }
 .book-card img {
   width: 100%;
@@ -681,7 +681,7 @@ footer .wrapper {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 5.4rem;
 }
 
 .nav-list .account-box {

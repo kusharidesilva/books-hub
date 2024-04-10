@@ -32,7 +32,7 @@
 </div>
 
 <p class="copyright">
-  Copyright &copy; <?php echo date('Y'); ?> BOOKS HUB | by Kushari Desilva.
+  Copyright &copy; <?php echo date('Y'); ?> BOOKS HUB | Web Technologies Assignment | by BSSE0122011570.
 </p>
 
 </footer>

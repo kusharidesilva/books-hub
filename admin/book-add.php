@@ -11,7 +11,7 @@ if (!isset($admin_id)) {
 };
 
 
-if (isset($_POST['add_book'])) {
+if (isset($_POST['add_book'])) { 
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);
    $story = mysqli_real_escape_string($conn, $_POST['story']);

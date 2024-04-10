@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 ?>
 
@@ -24,7 +24,7 @@ session_start();
 
     <main>
 
-        <section id="books"> 
+        <section id="books">
 
             <div class="books-main-container">
                 <h1>LIBRARY</h1>
@@ -47,16 +47,15 @@ session_start();
                 <?php
                 include_once('./config.php');
                 $filter = isset($_GET['type']) ? "WHERE book_type = '" . $_GET['type'] . "'" : "";
-                $sql = "SELECT b_id, book_name, img, title, LEFT(story, 200) AS story_short, book_type FROM books $filter";
+                $sql = "SELECT b_id, book_name, img, title, LEFT(story, 0) AS story_short, book_type FROM books $filter";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
                 ?>
                         <div class="book-card">
-                            <a href="./admin/book-add.php $row['b_id'] ?>">
+                            <a href="./view-book.php?book_id=<?= $row['b_id'] ?>">
                                 <img src="./img/<?= $row['img'] ?>" alt="<?= $row['book_name'] ?>">
                                 <h1><?= $row['book_name'] ?></h1>
-                                <p><?= $row['story_short'] ?>...</p>
                             </a>
                         </div>
                 <?php

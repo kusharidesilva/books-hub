@@ -16,7 +16,7 @@
 <body>
 
     <?php @include 'admin_header.php'; ?>
- 
+  
     <?php
     include_once('./config.php');
     if (isset($_GET['book_id']) && is_numeric($_GET['book_id'])) {
