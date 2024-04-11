@@ -24,7 +24,7 @@
 
   <div class = "social-links">
     <p>SOCIAL LINKS:</p><br>
-    <a href = "#" title="e-mail"><i class="fa-solid fa-envelope"></i></a>
+    <a href = "mailto:bookshub637@gmail.com" title="e-mail"><i class="fa-solid fa-envelope"></i></a>
     <a href = "https://www.facebook.com/profile.php?id=61558154881336&mibextid=ZbWKwL" title="facebook"><i class="fa-brands fa-facebook"></i></a>
   </div>
   
